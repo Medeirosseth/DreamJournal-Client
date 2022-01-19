@@ -1,0 +1,74 @@
+.postDescription{
+  text-indent: 25px;
+  padding: 5px 10px 10px 15px;
+  font-size: 15px;
+  color: #444;
+  line-height: 24px;
+  margin-top: 15px;
+  padding: 10px 0 -2px 0 ;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+}
+
+.userPost{
+  width: 53vh;
+  margin: 0 10px 0 10px;
+
+}
+
+.postBar{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  align-items: center;
+}
+
+.postDreamTitle{
+  
+  display: flex;
+  font-weight: bold  
+}
+
+.delete{
+  flex:1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.postTitle{
+  display: flex;
+}
+
+.emoji{
+  margin-left: 20px;
+}
+
+.delete{
+  margin-left: auto;
+  margin-right: 8px;
+  font-size: large;
+}
+
+.postsUserName{
+margin-left: 20px;
+}
+
+.postContent{
+  margin-top: 2px;
+  height: 100px;
+  
+}
+
+.userPost{
+margin-top: 30px;
+}
+
+@media (min-width: 500px) {
+  .userPost {
+    width: 100%;
+  }
+
+}

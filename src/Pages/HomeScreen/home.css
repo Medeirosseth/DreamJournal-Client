@@ -1,0 +1,16 @@
+.home {
+  overflow: scroll;
+  /* background-color: rgb(249, 249, 230); */
+  margin-top: 20px;
+}
+
+
+@media (min-width: 500px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

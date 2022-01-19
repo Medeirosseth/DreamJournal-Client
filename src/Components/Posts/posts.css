@@ -1,0 +1,6 @@
+.posts{
+  margin-top: 52px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}

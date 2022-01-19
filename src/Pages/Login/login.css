@@ -1,0 +1,72 @@
+.login{
+  height: 101vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: url("https://static.independent.co.uk/2021/07/19/16/newFile-10.jpg?width=1200&auto=webp&quality=75'alt='dr.eam"); */
+  background-position: center;
+}
+
+.label{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.loginCloud{
+  font-size: 140px;
+  position: absolute;
+  margin-bottom: 250px;
+  color: white;
+}
+
+.loginTitle{
+  position: relative;
+  color: rgb(196, 176, 199);
+  font-size: 35px;
+}
+
+.loginForm{
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+}
+
+.loginInput{
+  padding: 10px;
+  background-color: white;
+  border: none;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.loginButton{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(232, 241, 245);
+  border: none;
+  border-radius: 20px;
+  height: 30px;
+  padding: 10px;
+}
+
+.loginButton:disabled{
+  cursor: not-allowed;
+  /* background: red; */
+}
+
+.loginRegisterButton{
+  /* position: absolute; */
+  
+  border: none;
+  background: none;
+  color: white;
+  
+}
+
