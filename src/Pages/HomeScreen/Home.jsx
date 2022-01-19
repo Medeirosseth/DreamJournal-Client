@@ -23,7 +23,7 @@ export default function Home() {
     }
   }
   fetchPosts()
-  },[])
+  },[user])
 
   return (
     <>
